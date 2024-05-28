@@ -14,6 +14,11 @@ public class ApiSpringbootApplication {
 		return "springboot rest-api" ;
 	}
 
+	@GetMapping("/bye")
+	public String bye(){
+		return "springboot rest-api" ;
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(ApiSpringbootApplication.class, args);
 	}
