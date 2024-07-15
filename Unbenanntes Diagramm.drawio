@@ -1,30 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T11:41:29.654Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="FXyVvzQKQQA9__nuDP5U" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T14:08:00.484Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Zj5GavJ_K32dR4UO6699" version="24.6.5" type="github">
   <diagram name="Page-1" id="90a13364-a465-7bf4-72fc-28e22215d7a0">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
+        <mxCell id="V4-tu-K6Rpd_aIwKzUje-17" value="" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="310" width="400" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="V4-tu-K6Rpd_aIwKzUje-14" value="" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="210" y="310" width="800" height="230" as="geometry" />
+        </mxCell>
         <mxCell id="3a17f1ce550125da-13" style="edgeStyle=elbowEdgeStyle;rounded=0;html=1;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;fontSize=18;elbow=vertical;" parent="1" source="3a17f1ce550125da-4" target="3a17f1ce550125da-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="V4-tu-K6Rpd_aIwKzUje-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3a17f1ce550125da-2" target="V4-tu-K6Rpd_aIwKzUje-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3a17f1ce550125da-2" value="pipeline.yaml&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="420" y="444" width="123" height="86" as="geometry" />
+          <mxGeometry x="760" y="834.5" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3a17f1ce550125da-4" value="task.yaml" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="421" y="583" width="120" height="60" as="geometry" />
+        <mxCell id="V4-tu-K6Rpd_aIwKzUje-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3a17f1ce550125da-4" target="V4-tu-K6Rpd_aIwKzUje-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3a17f1ce550125da-20" style="edgeStyle=elbowEdgeStyle;rounded=0;html=1;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;fontSize=18;elbow=vertical;" parent="1" source="3a17f1ce550125da-8" target="3a17f1ce550125da-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="757" y="514" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="3a17f1ce550125da-4" value="tasks.yaml" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="750" y="370" width="220.5" height="131" as="geometry" />
         </mxCell>
-        <mxCell id="3a17f1ce550125da-8" value="Tekton&amp;nbsp;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="110" y="294" width="120" height="150" as="geometry" />
+        <mxCell id="3a17f1ce550125da-8" value="Tasks" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="20" y="350" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="V4-tu-K6Rpd_aIwKzUje-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V4-tu-K6Rpd_aIwKzUje-1" target="V4-tu-K6Rpd_aIwKzUje-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V4-tu-K6Rpd_aIwKzUje-1" value="pvc.yaml&lt;br&gt;(For workspace: Persistent Volume Claim)" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="401.5" y="700" width="159" height="140" as="geometry" />
+          <mxGeometry x="760" y="589" width="220" height="140" as="geometry" />
+        </mxCell>
+        <UserObject label="kubectl apply -f tasks.yaml&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" link="$ kubectl apply -f tasks.yaml&#xa;task.tekton.dev/echo created&#xa;task.tekton.dev/checkout created" id="V4-tu-K6Rpd_aIwKzUje-3">
+          <mxCell style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+            <mxGeometry x="1080" y="370" width="300.5" height="131" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="V4-tu-K6Rpd_aIwKzUje-7" value="Install Task from Tekton Hub:&lt;br&gt;&lt;br&gt;tkn hub install task git-clone &lt;br&gt;--version 0.8&lt;span style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;monospace&quot; color=&quot;rgba(0, 0, 0, 0)&quot;&gt;&lt;span style=&quot;font-size: 0px; text-wrap: nowrap;&quot;&gt;3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22tasks.yaml%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Bshadow%3D1%3BfontSize%3D18%3BfillColor%3D%23f5f5f5%3BstrokeColor%3D%23666666%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22689.5%22%20y%3D%22589%22%20width%3D%22300.5%22%20height%3D%22131%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;monospace&quot; color=&quot;rgba(0, 0, 0, 0)&quot;&gt;&lt;span style=&quot;font-size: 0px; text-wrap: nowrap;&quot;&gt;tkn hub install task git-clone --version 0.8&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="290" y="370" width="330" height="130" as="geometry" />
+        </mxCell>
+        <UserObject label="kubectl apply -f pvc.yaml&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CUserObject%20label%3D%22kubectl%20apply%20-f%20tasks.yaml%26lt%3Bdiv%26gt%3B%26lt%3Bbr%2F%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20link%3D%22%24%20kubectl%20apply%20-f%20tasks.yaml%26%2310%3Btask.tekton.dev%2Fecho%20created%26%2310%3Btask.tekton.dev%2Fcheckout%20created%22%20id%3D%222%22%3E%3CmxCell%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Bshadow%3D1%3BfontSize%3D18%3BfillColor%3D%23f5f5f5%3BstrokeColor%3D%23666666%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22240%22%20y%3D%22860%22%20width%3D%22300.5%22%20height%3D%22131%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2FUserObject%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" link="$ kubectl apply -f tasks.yaml&#xa;task.tekton.dev/echo created&#xa;task.tekton.dev/checkout created" id="V4-tu-K6Rpd_aIwKzUje-8">
+          <mxCell style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+            <mxGeometry x="1080" y="593.5" width="300.5" height="131" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="kubectl apply -f pipeline.yaml&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CUserObject%20label%3D%22kubectl%20apply%20-f%20tasks.yaml%26lt%3Bdiv%26gt%3B%26lt%3Bbr%2F%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20link%3D%22%24%20kubectl%20apply%20-f%20tasks.yaml%26%2310%3Btask.tekton.dev%2Fecho%20created%26%2310%3Btask.tekton.dev%2Fcheckout%20created%22%20id%3D%222%22%3E%3CmxCell%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Bshadow%3D1%3BfontSize%3D18%3BfillColor%3D%23f5f5f5%3BstrokeColor%3D%23666666%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221070%22%20y%3D%22589%22%20width%3D%22300.5%22%20height%3D%22131%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2FUserObject%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" link="$ kubectl apply -f tasks.yaml&#xa;task.tekton.dev/echo created&#xa;task.tekton.dev/checkout created" id="V4-tu-K6Rpd_aIwKzUje-9">
+          <mxCell style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+            <mxGeometry x="1080" y="809" width="300.5" height="131" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="V4-tu-K6Rpd_aIwKzUje-13" value="Start the pipeline on Tekton:&lt;br&gt;&lt;div&gt;tkn pipeline start cd-pipeline \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; -p repo-url=...&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="290" y="830" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="V4-tu-K6Rpd_aIwKzUje-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="3a17f1ce550125da-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="436" as="sourcePoint" />
+            <mxPoint x="670" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V4-tu-K6Rpd_aIwKzUje-18" value="Run in Kubernetes Pods" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="280" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V4-tu-K6Rpd_aIwKzUje-26" value="Pipeline" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="20" y="830" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="V4-tu-K6Rpd_aIwKzUje-27" value="Workspace&lt;br&gt;(Volume)" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="20" y="589" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="V4-tu-K6Rpd_aIwKzUje-28" value="Tekton" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="10" y="290" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
