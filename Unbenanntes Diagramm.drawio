@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T20:10:34.262Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Kso0j-Sr3IS__7rzE3lO" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-16T20:12:30.066Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="igLaiclF2D8LZW02HO2d" version="24.6.5" type="github">
   <diagram name="Page-1" id="90a13364-a465-7bf4-72fc-28e22215d7a0">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -92,12 +92,12 @@
             <mxGeometry x="1519.99" y="1080" width="200.25" height="90" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;div&gt;Container&lt;/div&gt;" link="$ kubectl apply -f tasks.yaml&#xa;task.tekton.dev/echo created&#xa;task.tekton.dev/checkout created" id="V4-tu-K6Rpd_aIwKzUje-50">
+        <UserObject label="1 Container for each step in task" link="$ kubectl apply -f tasks.yaml&#xa;task.tekton.dev/echo created&#xa;task.tekton.dev/checkout created" id="V4-tu-K6Rpd_aIwKzUje-50">
           <mxCell style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
             <mxGeometry x="1525.07" y="461" width="170.12" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;div&gt;Container&lt;/div&gt;" link="$ kubectl apply -f tasks.yaml&#xa;task.tekton.dev/echo created&#xa;task.tekton.dev/checkout created" id="V4-tu-K6Rpd_aIwKzUje-48">
+        <UserObject label="1 Container for each step in task" link="$ kubectl apply -f tasks.yaml&#xa;task.tekton.dev/echo created&#xa;task.tekton.dev/checkout created" id="V4-tu-K6Rpd_aIwKzUje-48">
           <mxCell style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
             <mxGeometry x="1540.1299999999999" y="1120" width="170.12" height="40" as="geometry" />
           </mxCell>
@@ -107,30 +107,26 @@
             <mxGeometry x="1519.99" y="1290" width="200.25" height="90" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;div&gt;Container&lt;/div&gt;" link="$ kubectl apply -f tasks.yaml&#xa;task.tekton.dev/echo created&#xa;task.tekton.dev/checkout created" id="V4-tu-K6Rpd_aIwKzUje-52">
+        <UserObject label="&lt;div&gt;1 Container for each step in task&lt;/div&gt;" link="$ kubectl apply -f tasks.yaml&#xa;task.tekton.dev/echo created&#xa;task.tekton.dev/checkout created" id="V4-tu-K6Rpd_aIwKzUje-52">
           <mxCell style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
             <mxGeometry x="1540.1299999999999" y="1330" width="170.12" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="V4-tu-K6Rpd_aIwKzUje-53" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1650" y="1350" as="sourcePoint" />
-            <mxPoint x="1700" y="1300" as="targetPoint" />
+        <mxCell id="V4-tu-K6Rpd_aIwKzUje-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="V4-tu-K6Rpd_aIwKzUje-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="1130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V4-tu-K6Rpd_aIwKzUje-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.05;entryY=0.556;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="V4-tu-K6Rpd_aIwKzUje-8" target="V4-tu-K6Rpd_aIwKzUje-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="V4-tu-K6Rpd_aIwKzUje-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.05;entryY=0.556;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="V4-tu-K6Rpd_aIwKzUje-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1370.5" y="1345" as="sourcePoint" />
-            <mxPoint x="1529.5" y="1345" as="targetPoint" />
+            <mxPoint x="1520" y="1345" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V4-tu-K6Rpd_aIwKzUje-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.05;entryY=0.556;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="V4-tu-K6Rpd_aIwKzUje-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1380.5" y="450" as="sourcePoint" />
-            <mxPoint x="1539.5" y="450" as="targetPoint" />
+            <mxPoint x="1510" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
